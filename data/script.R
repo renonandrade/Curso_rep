@@ -6,3 +6,4 @@ setwd("c:/R/curso/data")
 read.table(file = "data_format.txt", header = T)
 
 ####
+mudança
