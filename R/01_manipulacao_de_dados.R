@@ -139,7 +139,7 @@ colnames(comm.df)
 
 #Queremos agora adicionar a coluna Sites ao novo objeto. Vamos usar a função rep(). Esta função cria sequências. Vamos criar uma sequência de localidades, em que cada uma das 97 localidades se repete 56 vezes. A sequência deve ter também 5432 elementos.
 # primeiro criamos a sequência
-seq.site <- rep(Sites, each = n.sp)
+seq.site <- rep(Sites, times = n.sp)
 # checando a dimensão
 length(seq.site)
 # adicionando ao objeto comm.df
@@ -177,8 +177,6 @@ write.csv(x = comm.total,
           row.names = FALSE)
 
 #Ao terminar, você deve adicionar ao git todos os arquivos .csv usados neste script que estão na pasta cestes/, o script em si (R/01_manipulacao_de_dados.R) e o dado combinado que foi exportado ao final (data/01_data_format_combined.csv). Faça o commit e o push para o repositório remoto. Dia que acaba com um commit é um bom dia!
-
-
 
 
 
