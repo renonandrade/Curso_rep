@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+doc
+*.xlsx
+readme
+curso.Rproj
+docs/
+data/01_data_format_combined.csv
+data/commi.r
+data/script.R
+
